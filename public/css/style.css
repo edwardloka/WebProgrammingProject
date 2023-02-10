@@ -1,0 +1,163 @@
+body {
+    background-color: #111117;
+    color: white;
+}
+
+body::before{
+    display: block;
+    content: '';
+    height: 72px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bg-1 {
+    background-color: #1f1f1f !important;
+}
+
+.bg-2 {
+    background-color: #464646 !important;
+}
+
+.bg-3 {
+    background-color: #111117 !important;
+}
+
+.text-color-1{
+    color: #e93b43;
+}
+
+.text-color-2 {
+    color: #636363;
+}
+
+.text-color-3 {
+    color: #a6a6a9;
+}
+
+
+input.input-text{
+    border: none;
+    background-color: #1f1f1f;
+    color: #a5a5a5;
+    line-height: 22px;
+}
+
+.input-box {
+    border-radius: 10px;
+    min-width: 250px;
+    width: 100%;
+}
+
+.login-form{
+    width: 40%;
+    min-width: 400px;
+}
+
+.login-btn {
+    border: none;
+    background-color: #e93b43;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.b-radius {
+    border-radius: 10px;
+}
+
+.create-btn {
+    border: none;
+    background-color: #e93b43;
+    border-radius: 5px;
+    width: 25%;
+}
+
+.social-media-item {
+    border-radius: 50%;
+    background-color: #a6a6a9;
+    display: inline-block;
+    padding: 6px;
+}
+
+.form-control:focus {
+    background-color: #1f1f1f;
+}
+
+.bg_img {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center 20% !important;
+    height: 45vh;
+    background-color: #000000;
+}
+
+.wrapper {
+    width: 40%;
+    position: relative;
+    top: 50%;
+    left: 15%;
+}
+
+a:hover, a:focus{
+    outline: none;
+    color: white;
+}
+
+a{
+    color: white;
+}
+
+button.profile {
+    border: none;
+    background-color: transparent;
+    border-radius: 50%;
+}
+
+img.profile {
+    width: 25px;
+    height: 25px;
+    background-color: #757575;
+    border-radius: 50%;
+    border: none;
+}
+
+.profile-big {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.bg-none {
+    background-color: transparent;
+}
+
+.img-poster {
+    width: 230px;
+    height: 320px;
+}
+
+p {
+    margin: 0px;
+}
+
+.flying-btn-1 {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    background-color: #e93b43;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.flying-btn-2 {
+    position: absolute;
+    top: 40px;
+    right: 16px;
+    background-color: #e93b43;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
