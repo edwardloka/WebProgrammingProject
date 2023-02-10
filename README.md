@@ -1,4 +1,4 @@
-Run
+unzip vendor
 
 php artisan migrate:fresh --seed
 
@@ -6,8 +6,7 @@ di terminal
 
 Jalankan XAMPP Control Panel
 
-Run apache, MySQL
-Buka MySQL Admin
+Run apache, MySQL Buka MySQL Admin
 
 Create new database "movielist"
 
